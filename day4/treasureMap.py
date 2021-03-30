@@ -17,7 +17,6 @@ possible_choices = [11, 12, 13, 21, 22, 23, 31, 32, 33]
 treasure = random.choice(possible_choices)
 treasureString = str(treasure)
 
-print(f"treasure is at: {treasure}")
 rightChoice_number1 = treasureString[0]
 rightChoice_number2 = treasureString[1]
 
